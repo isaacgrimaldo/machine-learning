@@ -23,7 +23,6 @@ imputer = SimpleImputer(
     strategy = 'mean',
     fill_value=None, 
     verbose=0, 
-    copy=True
     );
 imputer = imputer.fit(X[:, 1:3]);
 X = [:, 1:3] = imputer.transform(X[:, 1:3]);
